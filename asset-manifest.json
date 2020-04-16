@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-statemanagement-contextapi-hooks-ts-starter/static/css/main.1cffb808.chunk.css",
+    "main.js": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/main.4859b50e.chunk.js",
+    "main.js.map": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/main.4859b50e.chunk.js.map",
+    "runtime-main.js": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/runtime-main.fee49e2b.js",
+    "runtime-main.js.map": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/runtime-main.fee49e2b.js.map",
+    "static/js/2.6693228a.chunk.js": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/2.6693228a.chunk.js",
+    "static/js/2.6693228a.chunk.js.map": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/2.6693228a.chunk.js.map",
+    "index.html": "/react-statemanagement-contextapi-hooks-ts-starter/index.html",
+    "precache-manifest.029e02b05ced6af208e3510e00b296fb.js": "/react-statemanagement-contextapi-hooks-ts-starter/precache-manifest.029e02b05ced6af208e3510e00b296fb.js",
+    "service-worker.js": "/react-statemanagement-contextapi-hooks-ts-starter/service-worker.js",
+    "static/css/main.1cffb808.chunk.css.map": "/react-statemanagement-contextapi-hooks-ts-starter/static/css/main.1cffb808.chunk.css.map",
+    "static/js/2.6693228a.chunk.js.LICENSE.txt": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/2.6693228a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fee49e2b.js",
+    "static/js/2.6693228a.chunk.js",
+    "static/css/main.1cffb808.chunk.css",
+    "static/js/main.4859b50e.chunk.js"
+  ]
+}
