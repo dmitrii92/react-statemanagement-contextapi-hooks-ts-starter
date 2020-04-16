@@ -19,6 +19,7 @@ export const View: React.FC<EmployeeViewProps> = (props) => {
             <th>First Name</th>
             <th>Last Name</th>
             <th>Age</th>
+            <th />
           </tr>
         </thead>
         <tbody>
@@ -28,6 +29,7 @@ export const View: React.FC<EmployeeViewProps> = (props) => {
                 firstName={employee.firstName}
                 lastName={employee.lastName}
                 age={employee.age}
+                id={employee.id}
               />
             );
           })}
