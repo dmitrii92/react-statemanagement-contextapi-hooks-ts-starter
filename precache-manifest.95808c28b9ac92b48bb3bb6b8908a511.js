@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad3da067975f0c5cc79207c2eaaa79e4",
+    "revision": "a632ebdc53f12d75515bc13e20c105bc",
     "url": "/react-statemanagement-contextapi-hooks-ts-starter/index.html"
   },
   {
-    "revision": "2e14f2583f8f27183e9f",
-    "url": "/react-statemanagement-contextapi-hooks-ts-starter/static/css/main.1cffb808.chunk.css"
+    "revision": "e4501c9ada966824cf51",
+    "url": "/react-statemanagement-contextapi-hooks-ts-starter/static/css/main.0b558089.chunk.css"
   },
   {
     "revision": "29c54ecaa01b66e96522",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/2.6693228a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e14f2583f8f27183e9f",
-    "url": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/main.4859b50e.chunk.js"
+    "revision": "e4501c9ada966824cf51",
+    "url": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/main.ef791a06.chunk.js"
   },
   {
     "revision": "70edceabd59c1d6b637e",
