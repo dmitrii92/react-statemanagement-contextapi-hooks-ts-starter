@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-statemanagement-contextapi-hooks-ts-starter/static/css/main.0b558089.chunk.css",
-    "main.js": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/main.cb77f12c.chunk.js",
-    "main.js.map": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/main.cb77f12c.chunk.js.map",
+    "main.js": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/main.ea63a8b4.chunk.js",
+    "main.js.map": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/main.ea63a8b4.chunk.js.map",
     "runtime-main.js": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/runtime-main.fee49e2b.js",
     "runtime-main.js.map": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/runtime-main.fee49e2b.js.map",
-    "static/js/2.6693228a.chunk.js": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/2.6693228a.chunk.js",
-    "static/js/2.6693228a.chunk.js.map": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/2.6693228a.chunk.js.map",
+    "static/js/2.a1e78ae2.chunk.js": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/2.a1e78ae2.chunk.js",
+    "static/js/2.a1e78ae2.chunk.js.map": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/2.a1e78ae2.chunk.js.map",
     "index.html": "/react-statemanagement-contextapi-hooks-ts-starter/index.html",
-    "precache-manifest.daa0d468f41f25f4e6c78f1c427a856b.js": "/react-statemanagement-contextapi-hooks-ts-starter/precache-manifest.daa0d468f41f25f4e6c78f1c427a856b.js",
+    "precache-manifest.11bf72b2a864f93628522eac6ae5bf4f.js": "/react-statemanagement-contextapi-hooks-ts-starter/precache-manifest.11bf72b2a864f93628522eac6ae5bf4f.js",
     "service-worker.js": "/react-statemanagement-contextapi-hooks-ts-starter/service-worker.js",
     "static/css/main.0b558089.chunk.css.map": "/react-statemanagement-contextapi-hooks-ts-starter/static/css/main.0b558089.chunk.css.map",
-    "static/js/2.6693228a.chunk.js.LICENSE.txt": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/2.6693228a.chunk.js.LICENSE.txt"
+    "static/js/2.a1e78ae2.chunk.js.LICENSE.txt": "/react-statemanagement-contextapi-hooks-ts-starter/static/js/2.a1e78ae2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fee49e2b.js",
-    "static/js/2.6693228a.chunk.js",
+    "static/js/2.a1e78ae2.chunk.js",
     "static/css/main.0b558089.chunk.css",
-    "static/js/main.cb77f12c.chunk.js"
+    "static/js/main.ea63a8b4.chunk.js"
   ]
 }
