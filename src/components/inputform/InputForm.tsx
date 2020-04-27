@@ -1,49 +1,60 @@
-import React from 'react';
-import { useForm } from "react-hook-form";
+import React, {ChangeEvent, FormEvent, useState} from 'react';
 
 import "./InputForm.css";
 
 interface EmployeeFormProps {
   onAdd(
-    firstName: string
-    , lastName: string
-    , age: number
+      firstName: string
+      , lastName: string
+      , age: number
   ): void
 }
-
-type FormData = {
-  firstName: string;
-  lastName: string;
-  age: number;
-}
-
 export const InputForm: React.FC<EmployeeFormProps> = (props) => {
-  const { register, handleSubmit, errors } = useForm<FormData>();
 
-  const onSubmit = (value: FormData) => {
-    props.onAdd(value.firstName, value.lastName, value.age);
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [age, setAge] = useState(0);
+
+  const handleFirstNameChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setFirstName(e.target.value);
+  }
+
+  const handleLastNameChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setLastName(e.target.value);
+  }
+
+  const handleAgeChange = (e: ChangeEvent<HTMLInputElement>) => {
+    let age : number;
+    age = Number(e.target.value);
+    setAge(age);
+  }
+
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    window.alert("Submit")
+    props.onAdd(firstName, lastName, age);
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <h3>Input</h3>
+      <form onSubmit={handleSubmit}>
+        <h3>Input</h3>
 
-      <div>
-        <label htmlFor="firstName">First Name</label>
-        <input name="firstName" ref={register({})} />
-      </div>
+        <div>
+          <label htmlFor="firstName">First Name</label>
+          <input name="firstName" value={firstName} onChange={handleFirstNameChange}/>
+        </div>
 
-      <div>
-        <label htmlFor="lastName">Last Name</label>
-        <input name="lastName" ref={register({})} />
-      </div>
+        <div>
+          <label htmlFor="lastName">Last Name</label>
+          <input name="lastName" value={lastName} onChange={handleLastNameChange}/>
+        </div>
 
-      <div>
-        <label htmlFor="age">Age</label>
-        <input name="age" ref={register({})} />
-      </div>
+        <div>
+          <label htmlFor="age">Age</label>
+          <input name="age" value={age} onChange={handleAgeChange}/>
+        </div>
 
-      <input type="submit" />
-    </form>
+        <input type="submit"/>
+      </form>
   );
 }

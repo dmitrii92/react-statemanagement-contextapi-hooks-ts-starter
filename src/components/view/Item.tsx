@@ -1,11 +1,9 @@
-import React, { useContext } from "react";
+import React from "react";
 
 import { Employee } from "../../interfaces"
 import Context from "../../context";
 
 export const Item: React.FC<Employee> = (employee) => {
-  // const {removeEmployee } = useContext(Context);
-
   return (
     <Context.Consumer>
       {context => (
