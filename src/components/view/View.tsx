@@ -26,6 +26,7 @@ export const View: React.FC<EmployeeViewProps> = (props) => {
           {props.employees.map(employee => {
             return (
               <Item
+                key={employee.id}
                 firstName={employee.firstName}
                 lastName={employee.lastName}
                 age={employee.age}
