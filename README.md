@@ -6,15 +6,15 @@ Starter for state management in react.
 
 ## Feature tags
 
+- context-api
 - create-react-app
 - ie11
+- react-router-dom
+- react-hooks
 - starter
+- state-management
 - template
 - typescript
-- context-api
-- react-router-dom
-- hooks
-- state-management
 
 ---
 
